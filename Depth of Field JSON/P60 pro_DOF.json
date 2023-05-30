@@ -1,0 +1,5048 @@
+{
+  "scen_name": "Test",
+  "action": [
+    {
+      "part": "-----------------------------------",
+      "value": "Chart: SFRplus [RIGHT, 3]",
+      "action": [
+        {
+          "part": "Chart",
+          "value": "RIGHT:",
+          "action": []
+        },
+        {
+          "part": "ChartHR",
+          "value": "3",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Mirroring [Window Title or Serial]",
+      "action": [
+          {
+          "part": "Mirroring",
+          "value": "",
+          "action": []
+          }
+        ]
+      },
+    {
+      "part": "-----------------------------------",
+      "value": "Light: LD65 [6500 K, 2000 Lux]",
+      "action": [
+        {
+          "part": "LoadLight",
+          "value": "LD65:6500:2000",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 100",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "10134",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10134 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10134 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10134 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10134 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 110",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "10124",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10124 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10124 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10124 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10124 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 120",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "10114",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10114 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10114 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10114 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10114 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 130",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "10104",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10104 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10104 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10104 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10104 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 140",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "10094",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10094 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10094 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10094 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10094 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 150",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "10084",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10084 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10084 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10084 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10084 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 160",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "10074",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10074 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10074 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10074 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10074 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 170",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "10064",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10064 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10064 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10064 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10064 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 180",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "10054",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10054 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10054 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10054 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10054 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 190",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "10044",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10044 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10044 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10044 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10044 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 200",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "10034",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10034 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10034 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10034 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10034 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 210",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "10024",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10024 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10024 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10024 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10024 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 220",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "10014",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10014 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10014 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10014 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10014 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 230",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "10004",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10004 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10004 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10004 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 10004 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 240",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9994",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9994 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9994 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9994 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9994 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 250",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9984",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9984 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9984 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9984 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9984 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 260",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9974",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9974 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9974 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9974 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9974 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 270",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9964",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9964 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9964 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9964 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9964 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 280",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9954",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9954 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9954 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9954 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9954 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 290",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9944",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9944 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9944 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9944 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9944 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 300",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9934",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9934 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9934 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9934 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9934 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 310",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9924",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9924 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9924 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9924 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9924 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 320",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9914",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9914 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9914 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9914 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9914 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 330",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9904",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9904 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9904 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9904 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9904 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 340",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9894",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9894 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9894 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9894 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9894 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 350",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9884",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9884 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9884 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9884 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9884 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 360",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9874",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9874 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9874 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9874 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9874 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 370",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9864",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9864 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9864 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9864 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9864 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 380",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9854",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9854 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9854 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9854 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9854 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 390",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9844",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9844 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9844 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9844 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9844 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 400",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9834",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9834 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9834 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9834 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9834 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 410",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9824",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9824 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9824 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9824 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9824 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 420",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9814",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9814 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9814 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9814 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9814 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 430",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9804",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9804 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9804 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9804 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9804 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 440",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9794",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9794 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9794 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9794 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9794 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 450",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9784",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9784 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9784 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9784 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9784 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 460",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9774",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9774 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9774 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9774 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9774 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 470",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9764",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9764 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9764 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9764 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9764 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 480",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9754",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9754 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9754 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9754 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9754 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 490",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9744",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9744 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9744 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9744 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9744 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 500",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9734",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9734 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9734 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9734 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9734 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 510",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9724",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9724 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9724 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9724 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9724 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 520",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9714",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9714 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9714 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9714 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9714 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 530",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9704",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9704 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9704 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9704 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9704 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 540",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9694",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9694 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9694 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9694 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9694 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 550",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9684",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9684 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9684 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9684 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9684 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 560",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9674",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9674 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9674 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9674 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9674 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 570",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9664",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9664 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9664 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9664 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9664 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 580",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9654",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9654 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9654 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9654 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9654 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 590",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9644",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9644 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9644 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9644 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9644 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 600",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9634",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9634 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9634 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9634 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9634 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 610",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9624",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9624 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9624 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9624 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9624 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 620",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9614",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9614 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9614 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9614 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9614 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 630",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9604",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9604 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9604 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9604 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9604 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 640",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9594",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9594 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9594 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9594 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9594 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 650",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9584",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9584 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9584 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9584 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9584 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 660",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9574",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9574 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9574 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9574 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9574 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 670",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9564",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9564 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9564 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9564 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9564 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 680",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9554",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9554 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9554 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9554 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9554 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 690",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9544",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9544 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9544 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9544 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9544 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 700",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9534",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9534 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9534 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9534 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9534 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 710",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9524",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9524 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9524 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9524 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9524 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 720",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9514",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9514 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9514 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9514 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9514 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 730",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9504",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9504 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9504 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9504 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9504 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 740",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9494",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9494 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9494 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9494 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9494 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 750",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9484",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9484 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9484 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9484 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9484 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 760",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9474",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9474 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9474 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9474 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9474 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 770",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9464",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9464 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9464 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9464 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9464 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 780",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9454",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9454 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9454 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9454 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9454 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 790",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9444",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9444 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9444 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9444 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9444 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 800",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9434",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9434 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9434 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9434 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9434 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 810",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9424",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9424 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9424 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9424 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9424 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 820",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9414",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9414 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9414 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9414 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9414 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 830",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9404",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9404 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9404 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9404 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9404 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 840",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9394",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9394 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9394 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9394 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9394 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 850",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9384",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9384 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9384 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9384 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9384 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 860",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9374",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9374 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9374 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9374 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9374 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 870",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9364",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9364 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9364 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9364 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9364 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 880",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9354",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9354 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9354 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9354 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9354 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 890",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9344",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9344 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9344 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9344 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9344 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 900",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9334",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9334 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9334 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9334 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9334 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 910",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9324",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9324 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9324 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9324 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9324 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 920",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9314",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9314 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9314 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9314 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9314 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 930",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9304",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9304 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9304 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9304 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9304 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 940",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9294",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9294 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9294 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9294 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9294 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 950",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9284",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9284 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9284 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9284 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9284 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 960",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9274",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9274 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9274 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9274 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9274 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 970",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9264",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9264 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9264 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9264 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9264 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 980",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9254",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9254 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9254 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9254 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9254 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 990",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9244",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9244 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9244 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9244 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9244 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "Move CamJig Y Position to 1000",
+      "action": [
+        {
+          "part": "CamYRun",
+          "value": "9234",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9234 -m W-x1.0-Default-Pro-12MP-f1.4 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9234 -m W-x1.0-Default-Pro-12MP-f2.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9234 -m W-x1.0-Default-Pro-12MP-f2.8 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    },
+    {
+      "part": "-----------------------------------",
+      "value": "PhoneControl - capture mode",
+      "action": [
+        {
+          "part": "CmdRun",
+          "value": "python \"D:\\CTS_Resource\\PhoneControl\\PhoneControl_android.py\" -y 9234 -m W-x1.0-Default-Pro-12MP-f4.0 -l LD65 -lx 2000 -s \"D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Huawei Mate 50 Pro.json\"",
+          "action": []
+        }
+      ]
+    }
+  ]
+}
