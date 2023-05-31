@@ -18,9 +18,9 @@ savedir ="D:\Result\MF\DOF\P60 Pro"
 # xpos = [298, 388, 471, 558, 644, 722, 813, 888, 982, 1069]
 # ypos = [1593, 1593, 1593, 1593, 1593, 1593, 1593, 1593, 1593, 1593]
 
-fnumbername = ["F2.0"]
-xpos = [558]
-ypos = [1593]
+fnumbername = ["F2.8", "F4.0", "F2.0"]
+xpos = [ 813, 1069, 558]
+ypos = [1593, 1593, 1593]
 
 for fnumber, x, y in zip(fnumbername, xpos, ypos):
 
@@ -32,7 +32,7 @@ for fnumber, x, y in zip(fnumbername, xpos, ypos):
     mydevice.shell("input tap 568 992")  # 화면 중앙 세팅
     time.sleep(2)
 
-    for dac in range(400):
+    for dac in range(200):
         d = 600 + dac * 2
         mydevice.shell("input tap 940 1730")  # MF setting 클릭
         time.sleep(2)
