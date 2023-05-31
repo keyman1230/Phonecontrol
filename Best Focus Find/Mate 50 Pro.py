@@ -19,9 +19,9 @@ savedir ="D:\Result\MF\DOF\Mate 50 Pro"
 # xpos = [241, 324, 403, 488, 566, 647, 725, 808, 891, 967]
 # ypos = [1472, 1472, 1472, 1472, 1472, 1472, 1472, 1472, 1472, 1472]
 
-fnumbername = ["F1.4", "F2.0", "F2.8", "F4.0"]
-xpos = [241, 488, 725, 967]
-ypos = [1472, 1472, 1472, 1472]
+fnumbername = ["F4.0"]
+xpos = [967]
+ypos = [1472]
 
 for fnumber, x, y in zip(fnumbername, xpos, ypos):
 
@@ -33,7 +33,7 @@ for fnumber, x, y in zip(fnumbername, xpos, ypos):
     mydevice.shell("input tap 553 960")  # 화면 중앙 세팅
     time.sleep(2)
 
-    for dac in range(400):
+    for dac in range(150):
         d = 600 + dac * 2
         mydevice.shell("input tap 833 1620")  # MF setting 클릭
         time.sleep(1)
