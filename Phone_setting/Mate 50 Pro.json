@@ -1,0 +1,136 @@
+{
+	"phone_info": {
+		"phone_name":"Huawei Mate 50",
+		"maker": "Huawei",
+		"temp_batt_limit": 360,
+		"level_batt_limit": 10
+	},
+	"execute_info": {
+		"set_version": 2.9,
+		"repeat_capture": 2,
+		"chart_save_file": "D:\\Result\\chart.txt",
+		"result_save_dir": "D:\\Result\\20230127",
+		"image_save_dir": "D:\\Result\\20230127",
+		"light_cal_data_dir": "D:\\CTS_Resource\\Light_Cal_Data",
+		"temp_check": true,
+		"temp_recheck_period": 300,
+		"level_recheck_period": 600,
+		"modeset_operation_period": 1,
+		"close_operation_period": 1,
+		"delete_images_after_pull": true
+	},
+	"delay_time": {
+		"delay_after_capture_over_100lux": 7,
+		"delay_after_capture_under_100lux": 4,
+		"additional_delay_after_capture_HiRes": 2,
+		"additional_delay_after_capture_RAW": 5,
+		"delay_after_AF_over_20lux": 3,
+		"delay_after_AF_under_20lux": 4
+	},
+	"modeset_operation": {
+
+		"W-x1.0-Default-Pro-12MP-f1.4": {
+			"cam_app": {
+				"name": "default",
+				"capture": "default",
+				"jpg_dir": "/sdcard/DCIM/Camera",
+				"raw_dir": "/sdcard/DCIM/Camera/Raw",
+				"af_touch_x_position": 543,
+				"af_touch_y_position": 2350
+			},
+			"setting": {
+				"Node1" : "swipe 543 2350 543 2350 5000",
+				"Mode1" : "swipe 960 1755 150 1755 1000",
+				"Mode2" : "tap 140 1755",
+				"Mode3": "tap 414 1623",
+				"Mode4": "tap 238 1470",
+				"Mode5": "tap 273 1623",
+				"Mode6": "tap 238 1470",
+				"Mode7": "tap 840 1623",
+				"Mode8": "tap 777 1447",
+				"Mode9": "tap 635 1300"
+			}
+		},
+		"W-x1.0-Default-Pro-12MP-f2.0": {
+			"cam_app": {
+				"name": "default",
+				"capture": "default",
+				"jpg_dir": "/sdcard/DCIM/Camera",
+				"raw_dir": "/sdcard/DCIM/Camera/Raw",
+				"af_touch_x_position": 543,
+				"af_touch_y_position": 2350
+			},
+			"setting": {
+				"Mode1" : "swipe 960 1755 150 1755 1000",
+				"Mode2" : "tap 140 1755",
+				"Mode3": "tap 414 1623",
+				"Mode4": "tap 485 1470",
+				"Mode5": "tap 273 1623",
+				"Mode6": "tap 238 1470",
+				"Mode7": "tap 840 1623",
+				"Mode8": "tap 777 1447",
+				"Mode9": "tap 635 1300"
+			}
+		},
+		"W-x1.0-Default-Pro-12MP-f2.8": {
+			"cam_app": {
+				"name": "default",
+				"capture": "default",
+				"jpg_dir": "/sdcard/DCIM/Camera",
+				"raw_dir": "/sdcard/DCIM/Camera/Raw",
+				"af_touch_x_position": 543,
+				"af_touch_y_position": 2350
+			},
+			"setting": {
+				"Mode1" : "swipe 960 1755 150 1755 1000",
+				"Mode2" : "tap 140 1755",
+				"Mode3": "tap 414 1623",
+				"Mode4": "tap 725 1470",
+				"Mode5": "tap 273 1623",
+				"Mode6": "tap 238 1470",
+				"Mode7": "tap 840 1623",
+				"Mode8": "tap 777 1447",
+				"Mode9": "tap 635 1300"
+			}
+		},
+		"W-x1.0-Default-Pro-12MP-f4.0": {
+			"cam_app": {
+				"name": "default",
+				"capture": "default",
+				"jpg_dir": "/sdcard/DCIM/Camera",
+				"raw_dir": "/sdcard/DCIM/Camera/Raw",
+				"af_touch_x_position": 543,
+				"af_touch_y_position": 2350
+			},
+			"setting": {
+				"Mode1" : "swipe 960 1755 150 1755 1000",
+				"Mode2" : "tap 140 1755",
+				"Mode3": "tap 414 1623",
+				"Mode4": "tap 975 1470",
+				"Mode5": "tap 273 1623",
+				"Mode6": "tap 238 1470",
+				"Mode7": "tap 840 1623",
+				"Mode8": "tap 777 1447",
+				"Mode9": "tap 635 1300"
+			}
+		},
+		"W-x1.0-Default-Pro-12MP": {
+			"cam_app": {
+				"name": "default",
+				"capture": "default",
+				"jpg_dir": "/sdcard/DCIM/Camera",
+				"raw_dir": "/sdcard/DCIM/Camera/Raw",
+				"af_touch_x_position": 530,
+				"af_touch_y_position": 2350
+			},
+			"setting": {
+			}
+		}
+		
+	},
+	"close_operation": {
+		"Menu_Display": "keyevent 4",
+		"multiwindow1": "swipe 575 2380 575 1750 1500",
+		"multiwindow2": "tap 555 2180"
+	}
+}

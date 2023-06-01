@@ -1,6 +1,8 @@
-from log import log
-from file_control import untitled as ut
-from unclassifed import time, Json_edit
+import sys
+sys.path.append("..")
+from Log import log
+from File_control import untitled as ut
+from Unclassifed import time, Json_edit
 
 
 
@@ -8,7 +10,7 @@ from unclassifed import time, Json_edit
 if __name__ == "__main__":
     logger = log.set_log(module="Json_Merge", path=f"Json_Merge", lv="INFO") # 로깅 설정
     # logger.info("test logging")
-    target_dir = ut.select_folder_location(init_dir="D:\# Shared_Folder_HDD\# Image Database\# Resolution\# 2023\23-05-30 Huawei BM\DOF\Best Focus Find\P60 Pro\Results") #  Json이 위치한 폴더
+    target_dir = ut.select_folder_location(init_dir="D:\# Shared_Folder_HDD\# Image Database\# Resolution\# 2023\23-05-30 Huawei BM\DOF\Best Focus Find\Mate 50 Pro") #  Json이 위치한 폴더
     target_filelist = ut.make_filelist(target_dir=target_dir, subdir=False, list_filetype=['.json']) # Json 목록
     t = time.return_now() # 현재시간 stfrtime 형식으로 가져오기
 
@@ -27,6 +29,6 @@ if __name__ == "__main__":
         sampleDF = Json_edit.json_to_dataframe(jsonfile)
         logger.debug(f"sample dataframe shape = {sampleDF.shape}")
         SummaryDF = pd.concat([SummaryDF, sampleDF], axis=0)
-    SummaryDF.to_excel(excel_writer=writer, sheet_name="DeadLeaves")
+    SummaryDF.to_excel(excel_writer=writer, sheet_name="Mate 50 Pro")
     writer.save()
     # logger.debug(f"Merge complete!! ")

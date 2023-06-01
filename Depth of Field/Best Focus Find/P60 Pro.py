@@ -7,6 +7,9 @@ mydevice = devices[0]
 mydevice.shell("rm -rf /sdcard/DCIM/Camera/")
 
 
+
+
+
 ##### Setting ###########
 # 프로 모드로 켜놓고 시작해야함. 주의
 Phone = "P60 Pro"

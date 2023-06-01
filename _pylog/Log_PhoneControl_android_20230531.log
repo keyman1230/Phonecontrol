@@ -1,0 +1,7 @@
+[2023-05-31 18:09:53,204] [WARNING] [PhoneControl_android.py ( 816)] [            <module>] Logging Level: WARNING (30)
+[2023-05-31 18:09:53,205] [WARNING] [PhoneControl_android.py (  83)] [            __init__] -=-=-=-=-=-=-=-=- Phone Control for Android v2.9 [Capture Mode] -=-=-=-=-=-=-=-=-
+[2023-05-31 18:09:53,205] [WARNING] [PhoneControl_android.py (  88)] [            __init__] Log is not saved to file. (console print)
+[2023-05-31 18:09:53,800] [WARNING] [PhoneControl_android.py ( 821)] [            <module>] ---------- Start of Execution !! ----------
+[2023-05-31 18:09:53,928] [WARNING] [PhoneControl_android.py ( 825)] [            <module>] ##### Result of read_setting_file: True [D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_P60 Pro.json]
+[2023-05-31 18:09:54,086] [WARNING] [PhoneControl_android.py ( 830)] [            <module>] ##### Result of check_device: True
+[2023-05-31 18:09:54,137] [WARNING] [PhoneControl_android.py ( 835)] [            <module>] ##### Result of Load_calData: True
