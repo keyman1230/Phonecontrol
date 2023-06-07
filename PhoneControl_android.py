@@ -56,7 +56,7 @@ def arg_parse():
     parser.add_argument('-l', '--light', type=str, help='Light Source Type [LD65 / HD65 / CWF / LDP65 / etc.]', required=True)
     parser.add_argument('-lx', '--lux', type=str, help='Illumination [2000 / 1000 / 100 / 50 / etc.]', required=True)
     parser.add_argument('-y', '--ypos', type=str, help='CTS Y positioin [9600 / 8600 / 5000 / 1000 / etc.]', required=False)
-    parser.add_argument('-s', '--setfile', type=str, help='App Mode Setting File [setting file (path + filename)]', required=True)
+    parser.add_argument('-s', '--setting_file', type=str, help='App Mode Setting File [setting file (path + filename)]', required=True) # 점검 완료 
     args = parser.parse_args()
     logging.warning('Input Arguments: {}'.format(args))
     return args
@@ -101,7 +101,7 @@ class androidCapture:
         self.arg_light = args.light
         self.arg_color_temperature = self.lightLUT[args.light]
         self.arg_lux = args.lux
-        self.phone_setfile = args.setfile
+        self.setting_file = args.setting_file # 점검 완료
         
         if self._log_to_file:
             logging.debug('arguments >> Enable Auto Detection Mode: [ {} ]'.format(self.arg_autodetection_mode))
@@ -111,7 +111,7 @@ class androidCapture:
             logging.debug('arguments >> Light Source: [ {} ]'.format(self.arg_light))
             logging.debug('arguments >> Color Temperature (K): [ {} ]'.format(self.arg_color_temperature))
             logging.debug('arguments >> Illumination (Lux): [ {} ]'.format(self.arg_lux))
-            logging.debug('arguments >> Setting File: [ {} ]'.format(self.phone_setfile))
+            logging.debug('arguments >> Setting File: [ {} ]'.format(self.setting_file))
         else:
             print(log_info_function() + 'arguments >> Enable Auto Detection Mode: [ {} ]'.format(self.arg_autodetection_mode))
             # print(log_info_function() + 'arguments >> Enable Screen Capture Mode: [ {} ]'.format(self.arg_screencapture_mode))
@@ -120,18 +120,18 @@ class androidCapture:
             print(log_info_function() + 'arguments >> Light Source: [ {} ]'.format(self.arg_light))
             print(log_info_function() + 'arguments >> Color Temperature (K): [ {} ]'.format(self.arg_color_temperature))
             print(log_info_function() + 'arguments >> Illumination (Lux): [ {} ]'.format(self.arg_lux))
-            print(log_info_function() + 'arguments >> Setting File: [ {} ]'.format(self.phone_setfile))
+            print(log_info_function() + 'arguments >> Setting File: [ {} ]'.format(self.setting_file))
 
     def read_setting_file(self):
-        if os.path.exists(self.phone_setfile):
+        if os.path.exists(self.setting_file):
             if self._log_to_file:
-                logging.debug('Phone Setting File: [ {} ]'.format(self.phone_setfile))
+                logging.debug('Phone Setting File: [ {} ]'.format(self.setting_file))
             else:
-                print(log_info_function() + 'Phone Setting File: [ {} ]'.format(self.phone_setfile))
+                print(log_info_function() + 'Phone Setting File: [ {} ]'.format(self.setting_file))
             try:
-                with open(self.phone_setfile, encoding='utf-8') as phoneSetting:
-                    _dict_setting = json.load(phoneSetting)
-                self.dict_phone_info = _dict_setting['phone_info']
+                with open(self.setting_file, encoding='utf-8') as f:
+                    _dict_setting = json.load(f)
+                self.phone_info = _dict_setting['phone_info']
                 self.dict_execute_info = _dict_setting['execute_info']
                 self.dict_delay_time = _dict_setting['delay_time']
                 self.dict_modeset_operation = _dict_setting['modeset_operation']
@@ -165,9 +165,9 @@ class androidCapture:
                 self.arg_ypos = 0
 
             if self._log_to_file:
-                logging.debug('Phone Info >> Phone name: [ {} ], Maker: [ {} ], temp_batt_limit: [ {} ]'.format(self.dict_phone_info['phone_name'], self.dict_phone_info['maker'], self.dict_phone_info['temp_batt_limit']))
+                logging.debug('Phone Info >> Phone name: [ {} ], Maker: [ {} ], temp_batt_limit: [ {} ]'.format(self.phone_info['name'], self.phone_info['maker'], self.phone_info['temp_batt_limit']))
             else:
-                print(log_info_function() + 'Phone Info >> Phone name: [ {} ], Maker: [ {} ], temp_batt_limit: [ {} ]'.format(self.dict_phone_info['phone_name'], self.dict_phone_info['maker'], self.dict_phone_info['temp_batt_limit']))
+                print(log_info_function() + 'Phone Info >> Phone name: [ {} ], Maker: [ {} ], temp_batt_limit: [ {} ]'.format(self.phone_info['name'], self.phone_info['maker'], self.phone_info['temp_batt_limit']))
 
             # Check Light Cal Data Location
             if self.arg_autodetection_mode:
@@ -187,7 +187,7 @@ class androidCapture:
                         print(log_info_function() + 'Folder >> Light Cal. Data Location: [ {} ]'.format(self.dict_execute_info['light_cal_data_dir']))
 
             # Make Result Save Folder
-            self.image_save_dir = self.dict_execute_info['result_save_dir'] + '_' + self.dict_phone_info['phone_name']
+            self.image_save_dir = self.dict_execute_info['result_save_dir'] + '_' + self.phone_info['name']
             if not os.path.exists(self.image_save_dir):
                 os.makedirs(self.image_save_dir)
             if self._log_to_file:
@@ -196,8 +196,8 @@ class androidCapture:
                 print(log_info_function() + 'Folder >> Image Save: [ {} ]'.format(self.image_save_dir))
             return True
         else:
-            logging.warning('Can not find setting file: {}'.format(self.phone_setfile))
-            print(log_info_function() + 'Can not find setting file: {}'.format(self.phone_setfile))
+            logging.warning('Can not find setting file: {}'.format(self.setting_file))
+            print(log_info_function() + 'Can not find setting file: {}'.format(self.setting_file))
             return False
 
     def check_device(self):
@@ -288,20 +288,20 @@ class androidCapture:
                 if 'level' in line:
                     level_batt = int(re.findall("\d+", line)[0])
 
-            if level_batt > self.dict_phone_info['level_batt_limit']:
+            if level_batt > self.phone_info['level_batt_limit']:
                 if self._log_to_file:
-                    logging.warning('Current Battery Level is higher than limit level. (Current level.: {}, Limit level.: {}) !!'.format(level_batt, self.dict_phone_info['level_batt_limit']))
+                    logging.warning('Current Battery Level is higher than limit level. (Current level.: {}, Limit level.: {}) !!'.format(level_batt, self.phone_info['level_batt_limit']))
                 else:
-                    print(log_info_function() + 'Current Battery Level is higher than limit level. (Current level.: {}, Limit level.: {}) !!'.format(level_batt, self.dict_phone_info['level_batt_limit']))
+                    print(log_info_function() + 'Current Battery Level is higher than limit level. (Current level.: {}, Limit level.: {}) !!'.format(level_batt, self.phone_info['level_batt_limit']))
                 break
             else:
                 self.device.shell('input keyevent KEYCODE_WAKEUP')
                 time.sleep(0.3)
                 self.device.shell('input keyevent KEYCODE_POWER')
                 if self._log_to_file:
-                    logging.warning('{} Battery level is low. (Current level: {}, Limit level.: {}) !! Wait {} secs!!'.format(self.dict_phone_info['phone_name'], level_batt, self.dict_phone_info['level_batt_limit'], self.dict_execute_info['level_recheck_period']))
+                    logging.warning('{} Battery level is low. (Current level: {}, Limit level.: {}) !! Wait {} secs!!'.format(self.phone_info['name'], level_batt, self.phone_info['level_batt_limit'], self.dict_execute_info['level_recheck_period']))
                 else:
-                    print(log_info_function() + '{} Battery level is low. (Current level: {}, Limit level.: {}) !! Wait {} secs!!'.format(self.dict_phone_info['phone_name'], level_batt, self.dict_phone_info['level_batt_limit'], self.dict_execute_info['level_recheck_period']))
+                    print(log_info_function() + '{} Battery level is low. (Current level: {}, Limit level.: {}) !! Wait {} secs!!'.format(self.phone_info['name'], level_batt, self.phone_info['level_batt_limit'], self.dict_execute_info['level_recheck_period']))
                 time.sleep(self.dict_execute_info['level_recheck_period'])
                 continue
                 
@@ -323,20 +323,20 @@ class androidCapture:
                     elif 'level' in line:
                         level_batt = int(re.findall("\d+", line)[0])
 
-                if temp_batt <= self.dict_phone_info['temp_batt_limit']:
+                if temp_batt <= self.phone_info['temp_batt_limit']:
                     if self._log_to_file:
-                        logging.warning('Current temperature is lower than limit temperature. (Current temp.: {}, Limit temp.: {}) !!'.format(temp_batt, self.dict_phone_info['temp_batt_limit']))
+                        logging.warning('Current temperature is lower than limit temperature. (Current temp.: {}, Limit temp.: {}) !!'.format(temp_batt, self.phone_info['temp_batt_limit']))
                     else:
-                        print(log_info_function() + 'Current temperature is lower than limit temperature. (Current temp.: {}, Limit temp.: {}) !!'.format(temp_batt, self.dict_phone_info['temp_batt_limit']))
+                        print(log_info_function() + 'Current temperature is lower than limit temperature. (Current temp.: {}, Limit temp.: {}) !!'.format(temp_batt, self.phone_info['temp_batt_limit']))
                     break
                 else:
                     self.device.shell('input keyevent KEYCODE_WAKEUP')
                     time.sleep(0.3)
                     self.device.shell('input keyevent KEYCODE_POWER')
                     if self._log_to_file:
-                        logging.warning('{} Battery is hot (Current temp.: {}, Limit temp.: {}) !! Wait {} secs!!'.format(self.dict_phone_info['phone_name'], temp_batt, self.dict_phone_info['temp_batt_limit'], self.dict_execute_info['temp_recheck_period']))
+                        logging.warning('{} Battery is hot (Current temp.: {}, Limit temp.: {}) !! Wait {} secs!!'.format(self.phone_info['name'], temp_batt, self.phone_info['temp_batt_limit'], self.dict_execute_info['temp_recheck_period']))
                     else:
-                        print(log_info_function() + '{} Battery is hot (Current temp.: {}, Limit temp.: {}) !! Wait {} secs!!'.format(self.dict_phone_info['phone_name'], temp_batt, self.dict_phone_info['temp_batt_limit'], self.dict_execute_info['temp_recheck_period']))
+                        print(log_info_function() + '{} Battery is hot (Current temp.: {}, Limit temp.: {}) !! Wait {} secs!!'.format(self.phone_info['name'], temp_batt, self.phone_info['temp_batt_limit'], self.dict_execute_info['temp_recheck_period']))
                     time.sleep(self.dict_execute_info['temp_recheck_period'])
                     continue
 
@@ -449,7 +449,7 @@ class androidCapture:
 
     def _pull_image(self):
         # Save File (adb pull)
-        saved_filename = '_'.join([self.arg_chart, self.light_info, '-'.join([self.dict_phone_info['phone_name'], self.arg_app_mode]), self.arg_ypos])
+        saved_filename = '_'.join([self.arg_chart, self.light_info, '-'.join([self.phone_info['name'], self.arg_app_mode]), self.arg_ypos])
         filelist_raw_dir = sorted(re.split('[\n ]', self.device.shell('ls \"{}\"'.format(self.dict_modeset_operation[self.arg_app_mode]['cam_app']['raw_dir']))), reverse=True)
         filelist_raw = [idx_file for idx_file in filelist_raw_dir if idx_file.lower().endswith('.dng')]
         filelist_jpg_dir = sorted(re.split('[\n ]', self.device.shell('ls \"{}\"'.format(self.dict_modeset_operation[self.arg_app_mode]['cam_app']['jpg_dir']))), reverse=True)
@@ -505,7 +505,7 @@ class androidCapture:
 
     def _record_capture_time(self, captureTime, tryCount):
         _now = datetime.datetime.now()
-        self.result_save_dir = self.dict_execute_info['result_save_dir'] + '_' + self.dict_phone_info['phone_name']
+        self.result_save_dir = self.dict_execute_info['result_save_dir'] + '_' + self.phone_info['name']
         if not os.path.exists(self.result_save_dir):
             os.makedirs(self.result_save_dir)
         if self._log_to_file:
@@ -519,9 +519,9 @@ class androidCapture:
             _write_header = ','.join(['DateTime', 'Model', 'Chart', 'Light', 'C.Temp', 'Lux', 'Try Count.', 'Image Filename', '\n'])
             f_image.write(_write_header)
             f_image.close()
-        _image_filename = '_'.join([self.arg_chart, self.light_info, '-'.join([self.dict_phone_info['phone_name'], self.arg_app_mode])])
+        _image_filename = '_'.join([self.arg_chart, self.light_info, '-'.join([self.phone_info['name'], self.arg_app_mode])])
         _write_str = ','.join([captureTime,
-                               self.dict_phone_info['phone_name'],
+                               self.phone_info['name'],
                                self.arg_chart,
                                self.arg_light,
                                self.arg_color_temperature,
@@ -693,7 +693,7 @@ class androidCapture:
 
     def make_PhoneSetting_json(self):
         # Variables
-        phone_info = {'phone_name': 'PhoneName',
+        phone_info = {'name': 'PhoneName',
                       'maker': 'Maker',
                       'temp_batt_limit': 350,
                       'level_batt_limit': 50
@@ -775,7 +775,7 @@ class androidCapture:
         setting_folder = r'./[Setting] Phone_Setting'
         if not os.path.exists(setting_folder):
             os.makedirs(setting_folder)
-        filename_setting = os.path.join(setting_folder, 'PhoneSetting_{}_{}.json'.format(phone_info['phone_name'],'v' + str(self.set_version_no).replace('.', 'p')))
+        filename_setting = os.path.join(setting_folder, 'PhoneSetting_{}_{}.json'.format(phone_info['name'],'v' + str(self.set_version_no).replace('.', 'p')))
         # Write json file
         with open(filename_setting, 'w') as setting_json:
             json.dump(dict_setting, setting_json, indent='\t')
@@ -822,7 +822,7 @@ if __name__ == "__main__":
         ts_start = datetime.datetime.now()          # Time Stamp
         
         ret = PC.read_setting_file()
-        logging.warning('##### Result of read_setting_file: {} [{}]'.format(ret, args.setfile))
+        logging.warning('##### Result of read_setting_file: {} [{}]'.format(ret, args.setting_file))
         ts_read_setting_file = datetime.datetime.now()  # Time Stamp
         
         if ret:
@@ -845,7 +845,7 @@ if __name__ == "__main__":
                 #     windowcor = win32gui.GetWindowRect(hWnd)
                 #     # im = ImageGrab.grab()     # 전체화면 캡쳐
                 #     im = ImageGrab.grab(windowcor)  # 창 캡쳐
-                #     im.save('_'.join([PC.dict_phone_info['phone_name'], str(args.mode)]) + '.png')
+                #     im.save('_'.join([PC.phone_info['name'], str(args.mode)]) + '.png')
             else:
                 ret = PC.capture_and_pull()
         logging.warning('##### Result of Preview and Capture: {}'.format(ret))

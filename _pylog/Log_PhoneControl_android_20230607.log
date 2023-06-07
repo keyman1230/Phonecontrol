@@ -1,0 +1,110 @@
+[2023-06-07 14:14:35,911] [WARNING] [PhoneControl_android.py ( 816)] [            <module>] Logging Level: WARNING (30)
+[2023-06-07 14:14:35,911] [WARNING] [PhoneControl_android.py (  81)] [            __init__] -=-=-=-=-=-=-=-=- Phone Control for Android v2.9 [AutoDetection Mode] -=-=-=-=-=-=-=-=-
+[2023-06-07 14:14:35,911] [WARNING] [PhoneControl_android.py (  88)] [            __init__] Log is not saved to file. (console print)
+[2023-06-07 14:14:36,013] [WARNING] [PhoneControl_android.py ( 821)] [            <module>] ---------- Start of Execution !! ----------
+[2023-06-07 14:14:36,020] [WARNING] [PhoneControl_android.py ( 825)] [            <module>] ##### Result of read_setting_file: True [D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Xiaomi 12S Ultra.json]
+[2023-06-07 14:14:36,133] [WARNING] [PhoneControl_android.py ( 830)] [            <module>] ##### Result of check_device: True
+[2023-06-07 14:14:36,134] [WARNING] [PhoneControl_android.py ( 835)] [            <module>] ##### Result of Load_calData: True
+[2023-06-07 14:14:40,219] [WARNING] [PhoneControl_android.py ( 851)] [            <module>] ##### Result of Preview and Capture: True
+[2023-06-07 14:14:40,219] [WARNING] [PhoneControl_android.py ( 861)] [            <module>] --------------------------------------------------------------------
+[2023-06-07 14:14:40,219] [WARNING] [PhoneControl_android.py ( 862)] [            <module>] ##### Total Processing Time            : 0:00:04.204291
+[2023-06-07 14:14:40,219] [WARNING] [PhoneControl_android.py ( 863)] [            <module>] --------------------------------------------------------------------
+[2023-06-07 14:14:40,219] [WARNING] [PhoneControl_android.py ( 865)] [            <module>] End of Execution !!
+
+[2023-06-07 15:42:52,206] [WARNING] [PhoneControl_android.py ( 816)] [            <module>] Logging Level: WARNING (30)
+[2023-06-07 15:42:52,206] [WARNING] [PhoneControl_android.py (  81)] [            __init__] -=-=-=-=-=-=-=-=- Phone Control for Android v2.9 [AutoDetection Mode] -=-=-=-=-=-=-=-=-
+[2023-06-07 15:42:52,206] [WARNING] [PhoneControl_android.py (  88)] [            __init__] Log is not saved to file. (console print)
+[2023-06-07 15:42:52,310] [WARNING] [PhoneControl_android.py ( 821)] [            <module>] ---------- Start of Execution !! ----------
+[2023-06-07 15:43:37,088] [WARNING] [PhoneControl_android.py ( 816)] [            <module>] Logging Level: WARNING (30)
+[2023-06-07 15:43:37,088] [WARNING] [PhoneControl_android.py (  81)] [            __init__] -=-=-=-=-=-=-=-=- Phone Control for Android v2.9 [AutoDetection Mode] -=-=-=-=-=-=-=-=-
+[2023-06-07 15:43:37,088] [WARNING] [PhoneControl_android.py (  88)] [            __init__] Log is not saved to file. (console print)
+[2023-06-07 15:43:37,186] [WARNING] [PhoneControl_android.py ( 821)] [            <module>] ---------- Start of Execution !! ----------
+[2023-06-07 15:44:00,447] [WARNING] [PhoneControl_android.py ( 816)] [            <module>] Logging Level: WARNING (30)
+[2023-06-07 15:44:00,447] [WARNING] [PhoneControl_android.py (  81)] [            __init__] -=-=-=-=-=-=-=-=- Phone Control for Android v2.9 [AutoDetection Mode] -=-=-=-=-=-=-=-=-
+[2023-06-07 15:44:00,447] [WARNING] [PhoneControl_android.py (  88)] [            __init__] Log is not saved to file. (console print)
+[2023-06-07 15:44:00,547] [WARNING] [PhoneControl_android.py ( 821)] [            <module>] ---------- Start of Execution !! ----------
+[2023-06-07 15:44:00,554] [WARNING] [PhoneControl_android.py ( 825)] [            <module>] ##### Result of read_setting_file: True [D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Xiaomi 13S Ultra.json]
+[2023-06-07 15:44:00,667] [WARNING] [PhoneControl_android.py ( 830)] [            <module>] ##### Result of check_device: True
+[2023-06-07 15:44:00,668] [WARNING] [PhoneControl_android.py ( 835)] [            <module>] ##### Result of Load_calData: True
+[2023-06-07 15:44:04,737] [WARNING] [PhoneControl_android.py ( 851)] [            <module>] ##### Result of Preview and Capture: True
+[2023-06-07 15:44:04,737] [WARNING] [PhoneControl_android.py ( 861)] [            <module>] --------------------------------------------------------------------
+[2023-06-07 15:44:04,737] [WARNING] [PhoneControl_android.py ( 862)] [            <module>] ##### Total Processing Time            : 0:00:04.189792
+[2023-06-07 15:44:04,737] [WARNING] [PhoneControl_android.py ( 863)] [            <module>] --------------------------------------------------------------------
+[2023-06-07 15:44:04,737] [WARNING] [PhoneControl_android.py ( 865)] [            <module>] End of Execution !!
+
+[2023-06-07 15:52:49,589] [WARNING] [PhoneControl_android.py ( 816)] [            <module>] Logging Level: WARNING (30)
+[2023-06-07 15:52:49,589] [WARNING] [PhoneControl_android.py (  81)] [            __init__] -=-=-=-=-=-=-=-=- Phone Control for Android v2.9 [AutoDetection Mode] -=-=-=-=-=-=-=-=-
+[2023-06-07 15:52:49,589] [WARNING] [PhoneControl_android.py (  88)] [            __init__] Log is not saved to file. (console print)
+[2023-06-07 15:52:49,689] [WARNING] [PhoneControl_android.py ( 821)] [            <module>] ---------- Start of Execution !! ----------
+[2023-06-07 15:52:49,699] [WARNING] [PhoneControl_android.py ( 825)] [            <module>] ##### Result of read_setting_file: True [D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Xiaomi 13S Ultra.json]
+[2023-06-07 15:52:49,800] [WARNING] [PhoneControl_android.py ( 830)] [            <module>] ##### Result of check_device: True
+[2023-06-07 15:52:49,800] [WARNING] [PhoneControl_android.py ( 835)] [            <module>] ##### Result of Load_calData: True
+[2023-06-07 15:52:53,872] [WARNING] [PhoneControl_android.py ( 851)] [            <module>] ##### Result of Preview and Capture: True
+[2023-06-07 15:52:53,872] [WARNING] [PhoneControl_android.py ( 861)] [            <module>] --------------------------------------------------------------------
+[2023-06-07 15:52:53,872] [WARNING] [PhoneControl_android.py ( 862)] [            <module>] ##### Total Processing Time            : 0:00:04.182995
+[2023-06-07 15:52:53,872] [WARNING] [PhoneControl_android.py ( 863)] [            <module>] --------------------------------------------------------------------
+[2023-06-07 15:52:53,872] [WARNING] [PhoneControl_android.py ( 865)] [            <module>] End of Execution !!
+
+[2023-06-07 15:53:04,478] [WARNING] [PhoneControl_android.py ( 816)] [            <module>] Logging Level: WARNING (30)
+[2023-06-07 15:53:04,478] [WARNING] [PhoneControl_android.py (  81)] [            __init__] -=-=-=-=-=-=-=-=- Phone Control for Android v2.9 [AutoDetection Mode] -=-=-=-=-=-=-=-=-
+[2023-06-07 15:53:04,478] [WARNING] [PhoneControl_android.py (  88)] [            __init__] Log is not saved to file. (console print)
+[2023-06-07 15:53:04,871] [WARNING] [PhoneControl_android.py ( 821)] [            <module>] ---------- Start of Execution !! ----------
+[2023-06-07 15:53:04,881] [WARNING] [PhoneControl_android.py ( 825)] [            <module>] ##### Result of read_setting_file: True [D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Xiaomi 13S Ultra.json]
+[2023-06-07 15:53:04,982] [WARNING] [PhoneControl_android.py ( 830)] [            <module>] ##### Result of check_device: True
+[2023-06-07 15:53:04,982] [WARNING] [PhoneControl_android.py ( 835)] [            <module>] ##### Result of Load_calData: True
+[2023-06-07 15:53:08,928] [WARNING] [PhoneControl_android.py ( 851)] [            <module>] ##### Result of Preview and Capture: True
+[2023-06-07 15:53:08,928] [WARNING] [PhoneControl_android.py ( 861)] [            <module>] --------------------------------------------------------------------
+[2023-06-07 15:53:08,928] [WARNING] [PhoneControl_android.py ( 862)] [            <module>] ##### Total Processing Time            : 0:00:04.056633
+[2023-06-07 15:53:08,928] [WARNING] [PhoneControl_android.py ( 863)] [            <module>] --------------------------------------------------------------------
+[2023-06-07 15:53:08,928] [WARNING] [PhoneControl_android.py ( 865)] [            <module>] End of Execution !!
+
+[2023-06-07 15:55:13,672] [WARNING] [PhoneControl_android.py ( 816)] [            <module>] Logging Level: WARNING (30)
+[2023-06-07 15:56:00,555] [WARNING] [PhoneControl_android.py ( 816)] [            <module>] Logging Level: WARNING (30)
+[2023-06-07 15:56:32,170] [WARNING] [PhoneControl_android.py (  83)] [            __init__] -=-=-=-=-=-=-=-=- Phone Control for Android v2.9 [Capture Mode] -=-=-=-=-=-=-=-=-
+[2023-06-07 15:56:34,990] [WARNING] [PhoneControl_android.py (  88)] [            __init__] Log is not saved to file. (console print)
+[2023-06-07 15:57:23,721] [WARNING] [PhoneControl_android.py ( 821)] [            <module>] ---------- Start of Execution !! ----------
+[2023-06-07 15:58:56,397] [WARNING] [PhoneControl_android.py ( 825)] [            <module>] ##### Result of read_setting_file: True [D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Xiaomi 13S Ultra.json]
+[2023-06-07 15:59:19,315] [WARNING] [PhoneControl_android.py ( 830)] [            <module>] ##### Result of check_device: True
+[2023-06-07 15:59:23,199] [WARNING] [PhoneControl_android.py ( 835)] [            <module>] ##### Result of Load_calData: True
+[2023-06-07 16:04:37,765] [WARNING] [PhoneControl_android.py ( 816)] [            <module>] Logging Level: WARNING (30)
+[2023-06-07 16:04:37,765] [WARNING] [PhoneControl_android.py (  83)] [            __init__] -=-=-=-=-=-=-=-=- Phone Control for Android v2.9 [Capture Mode] -=-=-=-=-=-=-=-=-
+[2023-06-07 16:04:37,765] [WARNING] [PhoneControl_android.py (  88)] [            __init__] Log is not saved to file. (console print)
+[2023-06-07 16:04:37,879] [WARNING] [PhoneControl_android.py ( 821)] [            <module>] ---------- Start of Execution !! ----------
+[2023-06-07 16:04:37,879] [WARNING] [PhoneControl_android.py ( 825)] [            <module>] ##### Result of read_setting_file: True [D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Xiaomi 13S Ultra.json]
+[2023-06-07 16:04:37,981] [WARNING] [PhoneControl_android.py ( 830)] [            <module>] ##### Result of check_device: True
+[2023-06-07 16:04:37,989] [WARNING] [PhoneControl_android.py ( 835)] [            <module>] ##### Result of Load_calData: True
+[2023-06-07 16:04:46,034] [WARNING] [PhoneControl_android.py ( 816)] [            <module>] Logging Level: WARNING (30)
+[2023-06-07 16:04:46,042] [WARNING] [PhoneControl_android.py (  83)] [            __init__] -=-=-=-=-=-=-=-=- Phone Control for Android v2.9 [Capture Mode] -=-=-=-=-=-=-=-=-
+[2023-06-07 16:04:46,042] [WARNING] [PhoneControl_android.py (  88)] [            __init__] Log is not saved to file. (console print)
+[2023-06-07 16:04:46,134] [WARNING] [PhoneControl_android.py ( 821)] [            <module>] ---------- Start of Execution !! ----------
+[2023-06-07 16:04:46,144] [WARNING] [PhoneControl_android.py ( 825)] [            <module>] ##### Result of read_setting_file: True [D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Xiaomi 13S Ultra.json]
+[2023-06-07 16:04:46,235] [WARNING] [PhoneControl_android.py ( 830)] [            <module>] ##### Result of check_device: True
+[2023-06-07 16:04:46,243] [WARNING] [PhoneControl_android.py ( 835)] [            <module>] ##### Result of Load_calData: True
+[2023-06-07 16:05:49,601] [WARNING] [PhoneControl_android.py ( 816)] [            <module>] Logging Level: WARNING (30)
+[2023-06-07 16:05:50,031] [WARNING] [PhoneControl_android.py (  83)] [            __init__] -=-=-=-=-=-=-=-=- Phone Control for Android v2.9 [Capture Mode] -=-=-=-=-=-=-=-=-
+[2023-06-07 16:05:50,031] [WARNING] [PhoneControl_android.py (  88)] [            __init__] Log is not saved to file. (console print)
+[2023-06-07 16:05:51,413] [WARNING] [PhoneControl_android.py ( 821)] [            <module>] ---------- Start of Execution !! ----------
+[2023-06-07 16:05:53,746] [WARNING] [PhoneControl_android.py ( 825)] [            <module>] ##### Result of read_setting_file: True [D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Xiaomi 13S Ultra.json]
+[2023-06-07 16:05:54,994] [WARNING] [PhoneControl_android.py ( 830)] [            <module>] ##### Result of check_device: True
+[2023-06-07 16:05:56,861] [WARNING] [PhoneControl_android.py ( 835)] [            <module>] ##### Result of Load_calData: True
+[2023-06-07 16:06:17,837] [WARNING] [PhoneControl_android.py ( 816)] [            <module>] Logging Level: WARNING (30)
+[2023-06-07 16:06:17,988] [WARNING] [PhoneControl_android.py (  83)] [            __init__] -=-=-=-=-=-=-=-=- Phone Control for Android v2.9 [Capture Mode] -=-=-=-=-=-=-=-=-
+[2023-06-07 16:06:17,988] [WARNING] [PhoneControl_android.py (  88)] [            __init__] Log is not saved to file. (console print)
+[2023-06-07 16:06:19,137] [WARNING] [PhoneControl_android.py ( 821)] [            <module>] ---------- Start of Execution !! ----------
+[2023-06-07 16:06:19,611] [WARNING] [PhoneControl_android.py ( 825)] [            <module>] ##### Result of read_setting_file: True [D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Xiaomi 13S Ultra.json]
+[2023-06-07 16:06:20,216] [WARNING] [PhoneControl_android.py ( 830)] [            <module>] ##### Result of check_device: True
+[2023-06-07 16:06:20,942] [WARNING] [PhoneControl_android.py ( 835)] [            <module>] ##### Result of Load_calData: True
+[2023-06-07 16:06:42,460] [WARNING] [PhoneControl_android.py ( 816)] [            <module>] Logging Level: WARNING (30)
+[2023-06-07 16:06:42,783] [WARNING] [PhoneControl_android.py (  83)] [            __init__] -=-=-=-=-=-=-=-=- Phone Control for Android v2.9 [Capture Mode] -=-=-=-=-=-=-=-=-
+[2023-06-07 16:06:42,783] [WARNING] [PhoneControl_android.py (  88)] [            __init__] Log is not saved to file. (console print)
+[2023-06-07 16:06:43,832] [WARNING] [PhoneControl_android.py ( 821)] [            <module>] ---------- Start of Execution !! ----------
+[2023-06-07 16:06:47,748] [WARNING] [PhoneControl_android.py ( 825)] [            <module>] ##### Result of read_setting_file: True [D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Xiaomi 13S Ultra.json]
+[2023-06-07 16:06:48,383] [WARNING] [PhoneControl_android.py ( 830)] [            <module>] ##### Result of check_device: True
+[2023-06-07 16:06:49,129] [WARNING] [PhoneControl_android.py ( 835)] [            <module>] ##### Result of Load_calData: True
+[2023-06-07 16:10:07,828] [WARNING] [PhoneControl_android.py ( 816)] [            <module>] Logging Level: WARNING (30)
+[2023-06-07 16:10:07,828] [WARNING] [PhoneControl_android.py (  83)] [            __init__] -=-=-=-=-=-=-=-=- Phone Control for Android v2.9 [Capture Mode] -=-=-=-=-=-=-=-=-
+[2023-06-07 16:10:07,828] [WARNING] [PhoneControl_android.py (  88)] [            __init__] Log is not saved to file. (console print)
+[2023-06-07 16:10:07,928] [WARNING] [PhoneControl_android.py ( 821)] [            <module>] ---------- Start of Execution !! ----------
+[2023-06-07 16:10:07,928] [WARNING] [PhoneControl_android.py ( 825)] [            <module>] ##### Result of read_setting_file: True [D:\\CTS_Resource\\PhoneControl\\[Setting] Phone_Setting\\PhoneSetting_Xiaomi 13S Ultra.json]
+[2023-06-07 16:10:08,029] [WARNING] [PhoneControl_android.py ( 830)] [            <module>] ##### Result of check_device: True
+[2023-06-07 16:10:08,029] [WARNING] [PhoneControl_android.py ( 835)] [            <module>] ##### Result of Load_calData: True
